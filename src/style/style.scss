@@ -638,7 +638,6 @@ header {
             border: 2px solid $dark;
             border-radius: 15px;
             margin: 20px 20px;
-
             .box1{
             width: 50px;
             height: 50px;
@@ -656,32 +655,26 @@ header {
             display: flex;
             align-items: center;
             margin-left: 10px;
-             .BodyM{
-              
-        border-bottom: 2px solid transparent;
-        transition: 0.3s;
-        &:hover {  
-          border-bottom: 2px solid $Inverse;
-        }
+             input{
+              border: none;
+              outline: none; 
              }  
           }
           }
-          .description-container{
-            width: 100%;
+           
+            
+            textarea {    
+              width: 100%;
             height: 120px;
             border: 2px solid $dark;
             border-radius: 15px;
             margin:  20px 20px;
-            .BodyM{     
               display: flex;
-            text-align: left; 
-            margin-left: 25px;       
-              width: 80%;
-              border-bottom: 2px solid transparent;
-              transition: 0.3s;
-              &:hover {  
-                border-bottom: 2px solid $Inverse;
-              }
+            text-align: center;
+     padding-top: 10px;
+             transition: 0.3s;
+            
+              
                    }  
           }
           }
@@ -702,7 +695,6 @@ header {
     }
     }
   }
-}
 
 .more{
   margin-bottom: 80px;

@@ -542,32 +542,22 @@ header nav a:hover {
   align-items: center;
   margin-left: 10px;
 }
-.contacts .wrapper form .form-container .email-container .email-box .email .box2 .BodyM {
-  border-bottom: 2px solid transparent;
-  transition: 0.3s;
+.contacts .wrapper form .form-container .email-container .email-box .email .box2 input {
+  border: none;
+  outline: none;
 }
-.contacts .wrapper form .form-container .email-container .email-box .email .box2 .BodyM:hover {
-  border-bottom: 2px solid #A93DFF;
-}
-.contacts .wrapper form .form-container .email-container .email-box .description-container {
+.contacts .wrapper form .form-container .email-container .email-box textarea {
   width: 100%;
   height: 120px;
   border: 2px solid #333333;
   border-radius: 15px;
   margin: 20px 20px;
-}
-.contacts .wrapper form .form-container .email-container .email-box .description-container .BodyM {
   display: flex;
-  text-align: left;
-  margin-left: 25px;
-  width: 80%;
-  border-bottom: 2px solid transparent;
+  text-align: center;
+  padding-top: 10px;
   transition: 0.3s;
 }
-.contacts .wrapper form .form-container .email-container .email-box .description-container .BodyM:hover {
-  border-bottom: 2px solid #A93DFF;
-}
-.contacts .wrapper form .form-container .btn {
+.contacts .wrapper form .btn {
   border-radius: 5px;
   margin: 0 auto;
   width: 80%;
