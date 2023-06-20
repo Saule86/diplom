@@ -271,7 +271,9 @@ header nav a:hover {
   height: 40px;
   background-color: #00CA69;
   border-radius: 10px;
-  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .about .wrapper .way-container #first .title-card h2,
 .about .wrapper .way-container #second .title-card h2 {
@@ -279,6 +281,7 @@ header nav a:hover {
   color: #FAFAFA;
   display: flex;
   align-items: center;
+  margin: 0;
 }
 .about .wrapper .way-container #first h2,
 .about .wrapper .way-container #second h2 {
@@ -301,14 +304,17 @@ header nav a:hover {
   height: 40px;
   background-color: #333333;
   border-radius: 10px;
-  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .about .wrapper .way-container #third .title-card h2,
 .about .wrapper .way-container #forth .title-card h2 {
   text-transform: capitalize;
   color: #FAFAFA;
   display: flex;
-  align-items: center;
+  text-align: center;
+  margin: 0;
 }
 .about .wrapper .way-container #third h2,
 .about .wrapper .way-container #forth h2 {
